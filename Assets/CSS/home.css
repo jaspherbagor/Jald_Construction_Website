@@ -74,7 +74,7 @@ p {
 /* Hero Section */
 .hero {
     min-height: 100vh;
-    background-image: url('../Images/hero-5.webp');
+    background-image: url('../Images/hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -83,8 +83,8 @@ p {
 
 .hero-text-container {
     color: var(--text-color-light);
-    background: rgba(0,0,0,0.25);
-    backdrop-filter: blur(3px);
+    background: rgba(0,0,0,0.20);
+    backdrop-filter: blur(2px);
 }
 
 .hero-headline {
@@ -145,4 +145,8 @@ p {
     background-repeat: no-repeat;  
     background-size: cover;
     background-position: center;
+}
+
+.before-after-card {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
